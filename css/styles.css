@@ -921,11 +921,9 @@ ul {
 }
 
 .label-field-checkbox {
-  display: flex;
+  /* display: flex;
   justify-content: left;
-  align-items: center;
-
-  padding-left: 24px;
+  align-items: center; */
 
   font-weight: 400;
   font-size: 12px;
@@ -955,7 +953,7 @@ ul {
   fill: #f4f4fd;
 }
 
-.input-field-checkbox:checked + .label-field-checkbox > .checkbox-wrapper-icon {
+.input-field-checkbox:checked + .label-field-checkbox .checkbox-wrapper-icon {
   background-color: var(--button-hover-color);
   border: none;
   fill: var(--background-color);
@@ -964,4 +962,5 @@ ul {
 
 .checkbox-link {
   color: #4d5ae5;
+  display: inline;
 }
