@@ -144,8 +144,8 @@ ul {
 }
 .menu-item {
   margin-right: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .menu-item:nth-last-child(-n + 1) {
@@ -153,6 +153,7 @@ ul {
 }
 
 .menu-link {
+  display: block;
   position: relative;
   padding: 24px 0;
   font-weight: 500;
@@ -947,14 +948,13 @@ ul {
 
 .checkbox-icon {
   fill: #f4f4fd;
-  border: none;
-  fill: var(--background-color);
 }
 
 .input-field-checkbox:checked + .label-field-checkbox .checkbox-wrapper-icon {
-  background-color: var(--customers-hover-icons);
-
+  border: none;
+  fill: var(--background-color);
   border-color: var(--customers-hover-icons);
+  background-color: var(--customers-hover-icons);
 }
 
 .checkbox-link {
