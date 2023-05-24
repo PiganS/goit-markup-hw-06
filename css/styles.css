@@ -921,10 +921,6 @@ ul {
 }
 
 .label-field-checkbox {
-  /* display: flex;
-  justify-content: left;
-  align-items: center; */
-
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -954,10 +950,10 @@ ul {
 }
 
 .input-field-checkbox:checked + .label-field-checkbox .checkbox-wrapper-icon {
-  background-color: var(--button-hover-color);
+  background-color: var(--customers-hover-icons);
   border: none;
   fill: var(--background-color);
-  border-color: var(--button-hover-color);
+  border-color: var(--customers-hover-icons);
 }
 
 .checkbox-link {
