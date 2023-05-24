@@ -947,12 +947,13 @@ ul {
 
 .checkbox-icon {
   fill: #f4f4fd;
+  border: none;
+  fill: var(--background-color);
 }
 
 .input-field-checkbox:checked + .label-field-checkbox .checkbox-wrapper-icon {
   background-color: var(--customers-hover-icons);
-  border: none;
-  fill: var(--background-color);
+
   border-color: var(--customers-hover-icons);
 }
 
